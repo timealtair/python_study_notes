@@ -66,13 +66,18 @@ _______________________________________________
 
 
 my_dict = {}
-another_link = my_dict  # Теперь у нас 2 ярлыка (ссылки) на 1 и тот же объект (!)
+another_link = my_dict
+
+(!) Теперь у нас 2 ярлыка (ссылки) на 1 и тот же объект (!)
 
 my_dict --> dict obj | {}
 another_link --> dict obj | {}
 
 
-my_dict['key'] = 'val'  # Измением объект, на который ссылается 1-ая ссылка
+my_dict['key'] = 'val'
+
+Изменяем объект, на который ссылается 1-ая ссылка
+
 
 my_dict --> dict obj | {'key': 'val'}
 another_link --> dict obj | {'key': 'val'}
