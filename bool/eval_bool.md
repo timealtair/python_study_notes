@@ -14,8 +14,8 @@ _______________________________________________
             Преобразование в bool:
 
 
-bool('any text') --> bool obj | True
-bool('') --> bool obj | False
+bool("any text") --> bool obj | True
+bool("") --> bool obj | False
 
 bool(123) --> bool obj | True
 bool(0) --> bool obj | False
@@ -45,13 +45,20 @@ _______________________________________________
 
 
 if True:
-    print('Will be printed')
+    num = 1 + 2
+    print("Evals if True")
 else:
-    print('Will NOT be printed')
+    num = 3 + 4
+    print("Evals if False")
+
+num --> 3
 
 
 if False:
-    print('Will NOT be printed')
+    num = 1 + 2
+    print("Evals if True")
 else:
-    print('Will be printed')
+    num = 3 + 4
+    print("Evals if False")
 
+num --> 7
