@@ -32,6 +32,13 @@ input() --> link to str object | 'user input example'
 print('Hello') --> link to NoneType object | None
 
 
+Извлечение ссылки на объект из связанной переменной
+            тоже является вычислением выражения:
+
+print --> link to Function object | Function
+
+__name__ --> link to str object | '__main__'
+
 _______________________________________________
 
         Statements Executes (Утверждения Исполняются)
