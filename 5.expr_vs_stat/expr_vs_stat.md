@@ -23,7 +23,7 @@ _______________________________________________
 
 1 == 10 --> link to bool object | False
 
-1 + 2 + 3 --> link to int object | 6
+1 + 2 + 3 --> 3 + 3 --> link to int object | 6
 
 'any ' + 'text' --> link to str object | 'any text'
 
