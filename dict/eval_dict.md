@@ -7,7 +7,7 @@ _______________________________________________
 
 Создание нового объекта:
 
-{} --> dict obj | {}
+{} --> link to dict obj | {}
 
 {
     'key 1': 'val 1', 
@@ -15,7 +15,7 @@ _______________________________________________
     123: 456,
     456: 'val 4'
 }
---> dict obj | {'key 1': 'val 1', 'key 2': 123, 123: 456, 456: 'val 4'}
+--> link to dict obj | {'key 1': 'val 1', 'key 2': 123, 123: 456, 456: 'val 4'}
 
 
 _______________________________________________
@@ -36,10 +36,10 @@ _______________________________________________
 
 my_dict = {'key': 'val'}
 
-my_dict --> dict obj | {'key': 'val'}
+my_dict --> link to dict obj | {'key': 'val'}
 
 
-my_dict['key'] --> ссылка_на_значение --> str obj | 'val'
+my_dict['key'] --> link to str obj | 'val'
 
 
 _______________________________________________
@@ -51,13 +51,13 @@ _______________________________________________
 
 
 my_dict = {}
-my_dict --> dict obj | {}
+my_dict --> link to dict obj | {}
 
 my_dict['key'] = 'val' 
     --> {}['key'] = 'val' 
         --> ссылка_на_значение = 'val'
 
-my_dict --> dict obj | {'key': 'val'}
+my_dict --> link to dict obj | {'key': 'val'}
 
 
 _______________________________________________
@@ -70,8 +70,8 @@ another_link = my_dict
 
 (!) Теперь у нас 2 ярлыка (ссылки) на 1 и тот же объект (!)
 
-my_dict --> dict obj | {}
-another_link --> dict obj | {}
+my_dict --> link to dict obj | {}
+another_link --> link to dict obj | {}
 
 
 my_dict['key'] = 'val'
@@ -79,8 +79,8 @@ my_dict['key'] = 'val'
 Изменяем объект, на который ссылается 1-ая ссылка
 
 
-my_dict --> dict obj | {'key': 'val'}
-another_link --> dict obj | {'key': 'val'}
+my_dict --> link to dict obj | {'key': 'val'}
+another_link --> link to dict obj | {'key': 'val'}
 
 
 (!) Так как обе ссылки (переменные) ссылаются на 1 и тот же объект,

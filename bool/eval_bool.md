@@ -5,8 +5,8 @@ _______________________________________________
             Логический тип bool:
 
 
-True --> bool obj | True
-False --> bool obj | False
+True --> link to bool obj | True
+False --> link to bool obj | False
 
 
 _______________________________________________
@@ -14,11 +14,11 @@ _______________________________________________
             Преобразование в bool:
 
 
-bool("any text") --> bool obj | True
-bool("") --> bool obj | False
+bool("any text") --> link to bool obj | True
+bool("") --> link to bool obj | False
 
-bool(123) --> bool obj | True
-bool(0) --> bool obj | False
+bool(123) --> link to bool obj | True
+bool(0) --> link to bool obj | False
 
 
 _______________________________________________
