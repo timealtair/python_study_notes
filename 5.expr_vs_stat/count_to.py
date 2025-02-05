@@ -2,9 +2,8 @@ separator = '-' * 32
 
 print(separator)
 
-print('Please enter nubmer to count to:')
-count_to = input()
-count_to = int(count_to)
+print('Please enter number to count to:')
+count_to = int(input())
 
 print(separator)
 
