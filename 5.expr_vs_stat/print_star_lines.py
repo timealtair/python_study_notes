@@ -3,12 +3,12 @@ separator = '-' * 32
 print(separator)
 
 print('Enter how many lines with stars to print:')
-count_to = int(input())
+lines_with_stars = int(input())
 
 print(separator)
 
 counter = 0
-while counter < count_to:
+while counter < lines_with_stars:
     counter = counter + 1
     print('*' * counter)
 
