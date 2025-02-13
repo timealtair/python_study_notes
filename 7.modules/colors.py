@@ -46,9 +46,11 @@ def red(object):
     """
     return _color_text(object, _RED)
 
-print(blue('blue'))
-print(cyan('cyan'))
-print(pink('pink'))
-print(green('green'))
-print(yellow('yellow'))
-print(red('red'))
+
+if __name__ == '__main__':
+    print(blue('blue'))
+    print(cyan('cyan'))
+    print(pink('pink'))
+    print(green('green'))
+    print(yellow('yellow'))
+    print(red('red'))
