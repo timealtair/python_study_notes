@@ -1,30 +1,25 @@
+_BLUE = '\033[94m'
+_CYAN = '\033[96m'
+_ENDCOLOR = '\033[0m'
 
 
 def blue(object):
     """
     Function colors text in blue.
     """
-    BLUE = '\033[94m'
-    CYAN = '\033[96m'
-    ENDCOLOR = '\033[0m'
 
-    colour = BLUE
+    colour = _BLUE
 
-    return colour + str(object) + ENDCOLOR
+    return colour + str(object) + _ENDCOLOR
 
 def cyan(object):
     """
     Function colors text in cyan.
     """
-    BLUE = '\033[94m'
-    CYAN = '\033[96m'
-    ENDCOLOR = '\033[0m'
 
-    colour = CYAN
+    colour = _CYAN
 
-    return colour + str(object) + ENDCOLOR
-
-
+    return colour + str(object) + _ENDCOLOR
 
 
 
