@@ -1,3 +1,4 @@
+import time
 
 string = 'some text'
 
@@ -5,4 +6,4 @@ it = iter(string)
 
 while True:
     print(next(it))
-    input('Click ENTER: ')
+    time.sleep(0.2)

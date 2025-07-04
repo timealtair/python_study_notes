@@ -1,6 +1,7 @@
+import time
 
 string = 'some text'
 
 for char in string:
     print(char)
-    input('Click ENTER: ')
+    time.sleep(0.2)
